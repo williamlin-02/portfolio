@@ -1,7 +1,6 @@
 import React from 'react'
 import './experience.css'
 import {useState} from 'react'
-import {useEffect} from 'react'
 import JobDescriptions from './JobDescriptions'
 
 const Experience = () => {
