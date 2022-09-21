@@ -1,0 +1,35 @@
+.container.contact__container {
+    width: 50%;
+}
+
+.contact__status {
+    margin: 4rem 1rem 4rem;
+    color: var(--color-light);
+}
+
+.contact__email {
+    width: 50%;
+    margin: auto;
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transform: var(--transition);
+}
+
+.contact__email:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__email-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__email a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}

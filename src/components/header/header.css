@@ -56,7 +56,7 @@ header {
     align-items: center;
     position: fixed;
     gap: 4rem;
-    right: -4rem;
+    right: 1.5rem;
     bottom: 10rem;
     transform: rotate(90deg);
     font-weight: 300;

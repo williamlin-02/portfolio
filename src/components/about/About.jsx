@@ -1,12 +1,13 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.png'
+import {BsPatchCheckFill} from 'react-icons/bs'
 
 const About = () => {
   return (
     <section id='about'>
-      <h5>GET TO KNOW</h5>
-      <h2>ABOUT ME</h2>
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -16,25 +17,53 @@ const About = () => {
         </div>
 
         <div className="about__content">
+
           <div className="about__cards">
-            <article className='about__card'>
-              <h5>FRONT-END DEVELOPMENT</h5>
-              <ul>
-                <li><small>React JS</small></li>
-                <li><small>Javascript</small></li>
-                <li><small>HTML</small></li>
-                <li><small>CSS</small></li>
-                <li><small>Bootstrap</small></li>
-              </ul>
-            </article>
-            <article className='about__card'>
-              <h5>BACK-END DEVELOPMENT</h5>
-              <ul>
-                <li><small>Python</small></li>
-                <li><small>C</small></li>
-                <li><small>Java</small></li>
-              </ul>
-            </article>
+            
+            <div className="about__frontend">
+              <h3>FRONTEND DEVELOPMENT</h3>
+              <div className="about__skills">
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>React JS</h4>
+                </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>Javascript</h4>
+                </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>HTML</h4>
+                </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>CSS</h4>
+                </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>Bootstrap</h4>
+                </article>
+              </div>
+            </div>
+
+            <div className="about__backend">
+              <h3>BACKEND DEVELOPMENT</h3>
+              <div className="about__skills">
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>Python</h4>
+                </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>C</h4>
+                </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>Javascript</h4>
+                </article>
+              </div>
+            </div>
+
           </div>
 
           <p>
