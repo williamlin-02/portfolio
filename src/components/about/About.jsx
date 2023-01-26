@@ -61,6 +61,10 @@ const About = () => {
                   <BsPatchCheckFill className='about__skill-icon' />
                   <h4>Javascript</h4>
                 </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>Rust</h4>
+                </article>
               </div>
             </div>
 
