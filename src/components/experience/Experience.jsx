@@ -13,9 +13,10 @@ const Experience = () => {
       <div className="container experience__container">
 
         <div className="jobs">
-          <button onClick={() => setActiveTab('#job0')} className={activeTab === '#job0' ? 'active' : ''}>Haylon Technologies</button>
-          <button onClick={() => setActiveTab('#job1')} className={activeTab === '#job1' ? 'active' : ''}>Major League Hacking</button>
-          <button onClick={() => setActiveTab('#job2')} className={activeTab === '#job2' ? 'active' : ''}>UChicago Joseph Regenstein Library</button>
+          <button onClick={() => setActiveTab('#job0')} className={activeTab === '#job0' ? 'active' : ''}>Akamai Technologies</button>
+          <button onClick={() => setActiveTab('#job1')} className={activeTab === '#job1' ? 'active' : ''}>Haylon Technologies</button>
+          <button onClick={() => setActiveTab('#job2')} className={activeTab === '#job2' ? 'active' : ''}>Major League Hacking</button>
+          <button onClick={() => setActiveTab('#job3')} className={activeTab === '#job3' ? 'active' : ''}>UChicago Joseph Regenstein Library</button>
         </div>
 
         <div className="descriptions">

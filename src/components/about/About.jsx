@@ -65,6 +65,14 @@ const About = () => {
                   <BsPatchCheckFill className='about__skill-icon' />
                   <h4>Rust</h4>
                 </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>SQL</h4>
+                </article>
+                <article className='about__skill'>
+                  <BsPatchCheckFill className='about__skill-icon' />
+                  <h4>DDMS</h4>
+                </article>
               </div>
             </div>
 
@@ -72,11 +80,13 @@ const About = () => {
 
           <p>
             Hey! Glad you made it this far :) <br></br>
-            I'm currently a third-year undergrad at the University of Chicago, 
-            and an aspiring software engineer specializing in web development!
+            I'm currently a 4th-year undergrad (+1 year for a Master's program graduating in 2025)
+            at the University of Chicago studying Computer Science and Philosophy. 
+            I'm an aspiring software engineer with experience in application and web develpoment,
+            as well as databases (both RDMS and distributed database systems).
             My love for programming stems from its unique and powerful capabilities 
-            in rewarding creativity. The element of creativity is highly prevalent
-            in my identity&mdash;dancer, coder, writer.
+            in rewarding creative thinking. The element of creativity is highly prevalent
+            in my identity&mdash;be it dancer, reader, or programmer.
           </p>
 
         </div>
