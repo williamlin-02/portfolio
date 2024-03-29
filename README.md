@@ -1,3 +1,7 @@
+### See this tutorial for adding updates/deploying
+https://github.com/gitname/react-gh-pages?fbclid=IwAR2RFCFjMNfpl3dAL81M9vasCVmGbYzLEMWH7de48s86KfIQVR5Ui9LKWgA
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
