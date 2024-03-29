@@ -4,15 +4,16 @@ const descriptions = [
     {
         company: 'Akamai Technologies', 
         title: 'Software Engineering Intern', 
-        description: ['Developed an application to control log distribution flow and track delivery status to enhance existing systems, forecasted to reduce disk usage by up to 40% and lower operational overhead by replacing manual load balancing with automation',
-                      'Conducted benchmark tests against relational (RDMS) and distributed database systems to compare and showcase their performance, scalability, and reliability in order to select the most optimized database solution for the app',
+        description: ['Spearheaded the development of an application to control log distribution flow and monitor delivery status to enhance existing systems, forecasted to reduce disk usage by up to 40% and lower operational overhead by replacing manual load balancing with automation',
+                      'Conducted comprehensive benchmark tests against relational (RDMS) and distributed database systems, evaluating their performance, scalability, and reliability to guide the selection of an optimized database solution',
+                      'Devised and implemented a range of sophisticated internal C++ tests utilizing the Google Test framework, and seamlessly integrated them into the log delivery application for enhanced quality assurance',
                       'Collaborated with cross-functional teams to proactively remodel and improve the design of the application, resolve blocking issues, and document processes to facilitate knowledge transfer']
     },
     {
         company: 'Haylon Technologies', 
         title: 'Software Engineering Intern', 
         description: ['Designed and built a React web app to create, run, and display various battery simulations through API calls',
-                      'Optimized user interface with the MUI component library through weekly discussions with the CTO']
+                      'Optimized user experience through actively enhancing the user interface with the MUI component library']
     },
     {
         company: 'Major League Hacking', 
